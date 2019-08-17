@@ -1,0 +1,10 @@
+UXML
+    Foldout.column(value="true")
+        each animal in ['elephant', 'zebra', 'lion', 'giraffe']
+            - var elementName = 'row-' + animal
+            Box(name=elementName)
+                - var imagePath = 'Resources.Load(' + animal + 'Image)'
+                Image(class='animal-image' image=imagePath)
+                Label(class='animal-label' text=animal)
+                - var buttonText = 'Choose the ' + animal
+                Button(text=buttonText)

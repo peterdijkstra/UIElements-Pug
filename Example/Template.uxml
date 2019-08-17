@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:xsi="http:/www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements" xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" xsi:schemaLocation="UnityEngine.UIElements ../UIElementsSchema/UnityEngine.UIElements.xsd">
+  <Foldout class="column" value="true">
+    <Box name="row-elephant">
+      <Image class="animal-image" image="Resources.Load(elephantImage)"></Image>
+      <Label class="animal-label" text="elephant"></Label>
+      <Button text="Choose the elephant"></Button>
+    </Box>
+    <Box name="row-zebra">
+      <Image class="animal-image" image="Resources.Load(zebraImage)"></Image>
+      <Label class="animal-label" text="zebra"></Label>
+      <Button text="Choose the zebra"></Button>
+    </Box>
+    <Box name="row-lion">
+      <Image class="animal-image" image="Resources.Load(lionImage)"></Image>
+      <Label class="animal-label" text="lion"></Label>
+      <Button text="Choose the lion"></Button>
+    </Box>
+    <Box name="row-giraffe">
+      <Image class="animal-image" image="Resources.Load(giraffeImage)"></Image>
+      <Label class="animal-label" text="giraffe"></Label>
+      <Button text="Choose the giraffe"></Button>
+    </Box>
+  </Foldout>
+</UXML>
