@@ -4,7 +4,7 @@ Create Unity UIElements UXML files using [Pug](https://github.com/pugjs/pug). Wo
 # Why
 XML is a pain to write and looks messy. Pug removes the bloat and adds features like variables, functions, loops. 
 
-It is based on [UIElements-Slim](https://github.com/eidetic-av/UIElements-Slim). I couldn't get Slim to work properly on my machine so I decided to try Pug instead. Turns out I also prefer the Pug syntax :-).
+It is based on [UIElements-Slim](https://github.com/eidetic-av/UIElements-Slim). I couldn't get Slim to work properly on my machine so I decided to try Pug instead. Turns out I also prefer the Pug syntax 😄.
 
 Here is iteration over an array of strings:
 ```pug
@@ -62,3 +62,4 @@ Included is the above example and a small EditorWindow script that uses said exa
 # To-do
 * Ideally it wouldn't depend on a separate process in the command line
 * Also it would be easier to distribute if Pug was included in some way, instead of it now pointing to the installation on my machine. Good chance it's not going to work out of the box on a different machine.
+* I'm not really sure how node/npm works on Windows, but I assume that it doesn't use the UNIXy /usr/local/bin thing. With some preproccesor directives this could be solved, maybe.
