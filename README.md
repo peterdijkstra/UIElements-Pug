@@ -55,7 +55,7 @@ I included a [utility](https://gist.github.com/georg-jung/3a8703946075d56423e418
 
 To use it, just copy ProcessAsyncHelper and PugProcessor into your project.
 
-Every time a '.pug' file is added or updated, the script will run the slim compiler and output a '.uxml' file in the same directory.
+Every time a '.pug' file is added or updated, the script will run the pug compiler and output a '.uxml' file in the same directory.
 
 Included is the above example and a small EditorWindow script that uses said example.
 
