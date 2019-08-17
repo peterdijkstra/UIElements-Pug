@@ -51,7 +51,7 @@ It compiles (transpiles?) to the following UXML:
 # Usage
 This is just a proof-of-concept so your mileage may vary, but I've tested it on macOS. Currently UIElements-Pug assumes you have a working node installation with Pug installed in `/usr/local/bin`. For Windows, you probably have to modify PugProcessor a bit.
 
-I included a [utility](https://gist.github.com/georg-jung/3a8703946075d56423e418ea76212745) to get async Process. For some reason vanilla Process.Start() is not async on macOS. I modified ProcessAsyncHelper to add support for setting environment variables.
+I included [ProcessAsyncHelper](https://gist.github.com/georg-jung/3a8703946075d56423e418ea76212745) for async Process. I modified ProcessAsyncHelper to add support for setting environment variables.
 
 To use it, just copy ProcessAsyncHelper and PugProcessor into your project.
 
